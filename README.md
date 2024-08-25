@@ -14,11 +14,12 @@ Filters for tasks based on status, priority, and due date are implemented using 
 
 Dockerization:
 
-The application is containerized using Docker, allowing it to be easily deployed and run in any environment. Docker Compose is used to manage the application and its dependencies (e.g., PostgreSQL).
+The application is containerized using Docker, allowing it to be easily deployed and run in any environment. Docker Compose is used to manage the application and its dependencies (e.g., MYSQL).
 
 Users:
 
 Each user can manage their own tasks but cannot access tasks assigned to other users.
+
 Task Fields:
 
 Fields like status, priority, and due date are assumed to be sufficient for managing task states.
@@ -26,6 +27,7 @@ Fields like status, priority, and due date are assumed to be sufficient for mana
 Database:
 
 MYSQL is used as the database, and it is assumed that the environment supports Docker.
+
 Performance and Scalability:
 
 While basic filters and pagination are implemented.
