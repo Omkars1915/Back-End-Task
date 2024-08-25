@@ -6,6 +6,7 @@ The application uses Spring Boot to simplify the creation and management of REST
 User Registration and Authentication:
 
 Implemented user registration with username and password
+
 Task Management:
 
 Tasks are associated with users, and the application supports CRUD operations.
