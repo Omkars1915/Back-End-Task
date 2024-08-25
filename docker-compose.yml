@@ -8,6 +8,6 @@ services:
     depends_on:
       - db
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/Task
+      SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/Task
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: ********
