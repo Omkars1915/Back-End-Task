@@ -1,5 +1,7 @@
 package com.project.dao;
 
+import java.util.List;
+
 import com.project.entity.User;
 
 public interface UserDao {
@@ -9,5 +11,7 @@ public interface UserDao {
 	User loginUser(String username, String password);
 
 	User getUserById(long id);
+
+	List<User> getAllUser();
 
 }

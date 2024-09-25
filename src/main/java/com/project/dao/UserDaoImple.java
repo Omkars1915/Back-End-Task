@@ -1,5 +1,7 @@
 package com.project.dao;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
@@ -63,6 +65,12 @@ public class UserDaoImple implements UserDao {
 			session.close();
 		}
 		
+		return null;
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		// TODO Auto-generated method stub
 		return null;
 	}
 
